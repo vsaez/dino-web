@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Dino Family Assistant</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
 </head>
 <body>
-<h1>Dino Family Assistant</h1>
-<p>Under construction.</p>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@7..72,300;7..72,400&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+<style>
+  body { margin: 0; background: #FBF7EF; color: #201E1A; -webkit-font-smoothing: antialiased; }
+  a { color: #2E4A7D; text-decoration: none; border-bottom: 1px solid rgba(46,74,125,0.35); }
+  a:hover { color: #201E1A; border-bottom-color: #201E1A; }
+  * { box-sizing: border-box; }
+</style>
+</helmet>
+
+<div style="font-family: Karla, system-ui, sans-serif; background: #FBF7EF; min-height: 100vh; display: flex; flex-direction: column; padding: 0 22px;">
+
+  <main style="max-width: 640px; width: 100%; margin: 0 auto; flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 88px 0 64px;">
+
+    <div style="display: flex; align-items: center; gap: 12px; margin: 0 0 30px;">
+      <span style="width: 34px; height: 26px; background: #2E4A7D; border-radius: 15px 15px 4px 4px; position: relative; display: inline-block;">
+        <span style="position: absolute; top: 8px; right: 7px; width: 4px; height: 4px; border-radius: 50%; background: #FBF7EF; display: block;"></span>
+      </span>
+      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.15em; color: #8B8478;">household project · private use</span>
+    </div>
+
+    <h1 style="font-family: Newsreader, Georgia, serif; font-weight: 300; font-size: clamp(38px, 6.5vw, 62px); line-height: 1.04; letter-spacing: -0.025em; margin: 0 0 26px; text-wrap: pretty;">Dino Family Assistant</h1>
+
+    <p style="font-size: 19px; line-height: 1.62; color: #4C473F; margin: 0 0 34px; text-wrap: pretty;">Dino is a private, local-first family assistant. It runs on a home computer and helps with day-to-day household organization: reading calendar events, checking email for household matters such as utility bills, answering questions through a Telegram bot, and processing school menu PDFs. It is used by a single household and is not a public product.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 22px; align-items: baseline; font-size: 15px;">
+      <a href="privacy_policy.html">Privacy policy</a>
+      <a href="mailto:dinoklisco@gmail.com">dinoklisco@gmail.com</a>
+    </div>
+  </main>
+
+  <footer style="max-width: 640px; width: 100%; margin: 0 auto; padding: 26px 0 40px; border-top: 1px solid #E7E0D2;">
+    <p style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; color: #8B8478; letter-spacing: 0.06em; margin: 0;">DINO FAMILY ASSISTANT · 2026</p>
+  </footer>
+</div>
+
+</x-dc>
 </body>
 </html>
